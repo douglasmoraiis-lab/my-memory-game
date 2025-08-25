@@ -1,7 +1,6 @@
 import type { LucideIcon } from 'lucide-react';
 
-// Define a interface para o objeto de carta,
-// essencial para o TypeScript
+// Define a interface para as propriedades do componente Card
 interface CardProps {
   id: number;
   icon: LucideIcon;

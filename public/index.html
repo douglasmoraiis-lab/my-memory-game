@@ -1,15 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Jogo da Memória</title>
+    <meta name="description" content="Jogue o clássico Jogo da Memória online! Escolha diferentes modos e divirta-se combinando os ícones." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Tema da barra de endereço em mobile -->
+    <meta name="theme-color" content="#1E293B" />
+
+    <!-- Open Graph / Redes sociais -->
+    <meta property="og:title" content="Jogo da Memória" />
+    <meta property="og:description" content="Jogue o clássico Jogo da Memória online! Escolha diferentes modos e divirta-se combinando os ícones." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/vite.svg" />
+
+    <!-- Ícone para iOS -->
+    <link rel="apple-touch-icon" href="/vite.svg" />
+
+    <!-- Estilos globais ou fontes externas (opcional) -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
   </head>
-  <body>
-    <!-- Este é o ponto de montagem do seu aplicativo React -->
-    <div id="root"></div>
-    <!-- O script que carrega a sua aplicação React -->
+  <body class="bg-gray-900 text-white">
+    <main id="root" class="min-h-screen flex items-center justify-center"></main>
+
+    <!-- Script da aplicação React -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
